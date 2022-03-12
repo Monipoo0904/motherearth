@@ -7,7 +7,7 @@ const client = require('twilio')(accountSid, authToken);
 
 client.messages
   .create({
-     body: 'This is the ship that made the Kessel Run in fourteen parsecs?',
+     body: 'Thank you so much for protecting the mother earth, we hope your environmentally safe journey continues!',
      from: '+17755357793',
      to: '+12405618977'
    })
