@@ -9,7 +9,7 @@ import "./style.css";
 function Enviro() {
   // State with list of all checked item
   const [checked, setChecked] = useState([]);
-  const checkList = ["Drive Less: Carbon emissions are one of the leading causes of carbon emissons.", "Unplug: Here's a shocker, your appliances and electronics suck energy.", "Conserve Water: water may appear abundant but, there are large accurances of water shortages. Turn off the faucet and take a shower instead of bathing.", "Choose to reuse instead of simply recycling", "use a reusable straw for a week", "Get outside!", "Save your leftovers","Wash your clothes with cold water", "Turn off all lights when you leave a room", "buy used books or even consider renting.", "clean up 10 pieces of trash."];
+  const checkList = ["Drive Less: Carbon emissions are one of the leading causes of carbon emissons.", "Unplug: Here's a shocker, your appliances and electronics suck energy.", "Conserve Water: water may appear abundant but, there are large accurances of water shortages. Turn off the faucet and take a shower instead of bathing.", "Choose to reuse instead of simply recycling", "use a reusable straw for a week", "Get outside!", "Save your leftovers","Wash your clothes with cold water", "Turn off all lights when you leave a room", "buy used books or even consider renting.", "clean up 10 pieces of trash"];
 
   // Add/Remove checked item from list
   const handleCheck = (event) => {

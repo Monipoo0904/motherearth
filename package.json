@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@hashgraph/sdk": "^2.10.1",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "node-module-loader": "^1.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.0",
+    "react-scripts": "^2.1.3",
     "twilio": "^3.75.1",
     "web-vitals": "^2.1.4"
   },
@@ -38,6 +41,13 @@
     ]
   },
   "devDependencies": {
-    "react-router-dom": "^6.2.2"
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
+    "css-loader": "^6.7.1",
+    "postcss": "^8.4.8",
+    "postcss-loader": "^6.2.1",
+    "react-refresh": "^0.11.0",
+    "react-router-dom": "^6.2.2",
+    "source-map-loader": "^3.0.1",
+    "style-loader": "^3.3.1"
   }
 }
